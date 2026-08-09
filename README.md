@@ -1,10 +1,12 @@
-# AZURE PEAK
+# THE IMPOSSIBLE DREAM INCARNATE (TIDI)
 
 | Website                   | Link                                           |
 |---------------------------|------------------------------------------------|
-| Discord | [https://discord.gg/NCFXUAgCPT](https://discord.gg/NCFXUAgCPT)
-| Code    | [https://github.com/Azure-Peak/Azure-Peak](https://github.com/GeneralPantsuIsBadAtCoding/Azure-Peak)    |
-| Wiki    | [https://azurepeak.miraheze.org/wiki/Main_Page](https://azurepeak.miraheze.org/wiki/Main_Page) |
+| Discord | [https://discord.gg/F2EQA3HFUu](https://discord.gg/F2EQA3HFUu)
+| UPSTREAM    | [https://github.com/Azure-Peak/Azure-Peak](https://github.com/Azure-Peak/Azure-Peak)    |
+| UPSTREAM WIKI    | [https://azurepeak.miraheze.org/wiki/Main_Page](https://azurepeak.miraheze.org/wiki/Main_Page) |
+
+## Make sure to read [Guide-to-Modular-Code](https://github.com/Shadow-Fragger-Metaclique-Gang/TheImpossibleDream/wiki/Guide-to-Modular-Code) before contributing.
 
 ## LICENSE
 Original Fork Originates from [commit c28b351807bad950d2b323ada048190844bbda32](https://github.com/tgstation/tgstation/commit/c28b351807bad950d2b323ada048190844bbda32).
