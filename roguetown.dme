@@ -7,7 +7,7 @@
 #define DEBUG
 // END_PREFERENCES
 // BEGIN_INCLUDE
-#include "_maps\_basemap.dm"
+#include "_maps\lyndvhar_port.dm"
 #include "_maps\map_files\generic\CentCom.dmm"
 #include "_maps\templates\arcyne_fortress.dm"
 #include "code\__byond_version_compat.dm"
@@ -2418,6 +2418,7 @@
 #include "code\modules\mob\living\carbon\status_procs.dm"
 #include "code\modules\mob\living\carbon\stress.dm"
 #include "code\modules\mob\living\carbon\update_icons.dm"
+#include "code\modules\mob\living\carbon\human\cosmetic_claws.dm"
 #include "code\modules\mob\living\carbon\human\damage_procs.dm"
 #include "code\modules\mob\living\carbon\human\death.dm"
 #include "code\modules\mob\living\carbon\human\dummy.dm"
@@ -2491,7 +2492,6 @@
 #include "code\modules\mob\living\carbon\human\species_types\furry\moth.dm"
 #include "code\modules\mob\living\carbon\human\species_types\furry\tabaxi.dm"
 #include "code\modules\mob\living\carbon\human\species_types\furry\vulpkanin.dm"
-#include "code\modules\mob\living\carbon\human\cosmetic_claws.dm"
 #include "code\modules\mob\living\carbon\human\species_types\nightshape\accursed_transform.dm"
 #include "code\modules\mob\living\carbon\human\species_types\nightshape\cat.dm"
 #include "code\modules\mob\living\carbon\human\species_types\nightshape\saiga.dm"
