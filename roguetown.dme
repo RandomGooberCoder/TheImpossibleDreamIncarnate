@@ -7,7 +7,6 @@
 #define DEBUG
 // END_PREFERENCES
 // BEGIN_INCLUDE
-#include "_maps\lyndvhar_port.dm"
 #include "_maps\map_files\generic\CentCom.dmm"
 #include "_maps\templates\arcyne_fortress.dm"
 #include "code\__byond_version_compat.dm"
@@ -3623,4 +3622,5 @@
 #include "modular\piercing\piercings.dm"
 #include "modular\piercing\supply.dm"
 #include "modular\ze_genesis_call\genesis_call.dm"
+#include "modular_tidi\global_modules.dm"
 // END_INCLUDE
