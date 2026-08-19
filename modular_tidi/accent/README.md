@@ -1,3 +1,7 @@
+### Related PRs
+
+https://github.com/Shadow-Fragger-Metaclique-Gang/TheImpossibleDream/pull/8
+
 ### Title: Enables accents
 
 ## Description:
