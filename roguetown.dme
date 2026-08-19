@@ -3623,6 +3623,4 @@
 #include "modular\piercing\supply.dm"
 #include "modular\ze_genesis_call\genesis_call.dm"
 #include "modular_tidi\global_modules.dm"
-#include "modular_tidi\accent\accent.dm"
-#include "modular_tidi\accent\code\accent_speech_handle.dm"
 // END_INCLUDE
