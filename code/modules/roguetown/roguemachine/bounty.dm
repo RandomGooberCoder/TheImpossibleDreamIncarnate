@@ -52,8 +52,10 @@
 		if("Set Bounty")
 			set_bounty(H)
 
+		/** SRLS edit start - removes validhunting tools
 		if("Print List of Bounties")
 			print_bounty_scroll(H)
+		SRLS edit end - removes validhunting tools */
 
 		if("Remove Bounty")
 			remove_bounty(H)
