@@ -2,9 +2,9 @@
 
 **Tag:** `EXCIDIUM`
 
-**Created in:**
+**Created in:** https://github.com/Shadow-Fragger-Metaclique-Gang/TheImpossibleDream/pull/56
 
-**Major changes:**
+**Major changes:** https://github.com/Shadow-Fragger-Metaclique-Gang/TheImpossibleDream/pull/56
 
 - Only members of the faction that posted the bounty can now see it in the excidium, bounties posted in-round are seen by everyone.
 - Removes printing magical bounty lists.
