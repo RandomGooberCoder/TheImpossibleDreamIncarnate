@@ -58,6 +58,7 @@
 #define ROLE_CHOSEN				"Chosen"
 #define ROLE_VAMPIRE_SUMMON		"Vampire Summon"
 #define ROLE_NOTORIOUS_BOUNTY	"Notorious Bounty Target"
+#define ROLE_LUXBEEST           "Luxbeest"
 
 GLOBAL_LIST_INIT(special_roles_rogue, list(
 	ROLE_MANIAC = /datum/antagonist/maniac,
@@ -73,6 +74,7 @@ GLOBAL_LIST_INIT(special_roles_rogue, list(
 	ROLE_GNOLL = /datum/antagonist/gnoll,
 	ROLE_ASSASSIN = /datum/antagonist/assassin,
 	ROLE_HAG = /datum/antagonist/hag,
+	ROLE_LUXBEEST = /datum/antagonist/beast/luxbeest,
 ))
 
 //Job defines for what happens when you fail to qualify for any job during job selection

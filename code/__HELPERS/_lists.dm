@@ -881,3 +881,10 @@ Port of: https://github.com/Monkestation/Vanderlin/commit/84b8b6a716a80040145bb9
 	if(!islist(cache) || cache.len <= limit)
 		return
 	cache.Cut(1, (cache.len - limit) + 1)
+
+/// Turns an associative list into a flat list of keys
+/proc/assoc_to_keys(list/input)
+	var/list/keys = list()
+	for(var/key in input)
+		UNTYPED_LIST_ADD(keys, key)
+	return keys
