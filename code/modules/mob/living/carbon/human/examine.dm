@@ -956,13 +956,15 @@
 			if(H.marriedto == name)
 				. += span_love("It's my spouse.")
 
-		/** SRLS edit start - removes validhunting tools
+		// [SURREALIS-REMOVE] - EXCIDIUM - removes validhunting tools
+		/**
 		if(HAS_TRAIT(user, TRAIT_JUSTICARSIGHT) && !HAS_TRAIT(src, TRAIT_DECEIVING_MEEKNESS))
 			for(var/datum/bounty/b in GLOB.head_bounties)
 				if(b.target == real_name)
 					. += span_syndradio("[m3] a bounty on [m2] head of [b.amount] mammon for [b.reason], issued by [b.employer].")
 					break
-		SRLS edit end - removes validhunting tools */
+		*/
+		// [/SURREALIS-REMOVE]
 
 		if(name in GLOB.court_agents)
 			var/datum/job/J = SSjob.GetJob(user.mind?.assigned_role)
