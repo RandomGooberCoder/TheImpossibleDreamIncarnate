@@ -915,13 +915,14 @@
 		if(name in GLOB.excommunicated_players)
 			. += span_userdanger("HERETIC! SHAME!")
 
-		/** SRLS edit start - removes validhunting tools
-
+		// [SURREALIS-REMOVE] - EXCIDIUM - removes fluoride validhunt stare
+		/**
 		if(HAS_TRAIT(src, TRAIT_EXCOMMUNICATED))
 			. += span_userdanger("EXCOMMUNICATED! SHAME!")
 		if(name in GLOB.outlawed_players)
 			. += span_userdanger("OUTLAW!")
-		SRLS edit end - removes validhunting tools*/
+		*/
+		//[/SURREALIS-REMOVE]
 		. += deadite_examine()
 
 		var/datum/antagonist/vampire/vamp_inspect_vlord = src.mind?.has_antag_datum(/datum/antagonist/vampire/lord)

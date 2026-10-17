@@ -52,10 +52,12 @@
 		if("Set Bounty")
 			set_bounty(H)
 
-		/** SRLS edit start - removes validhunting tools
+		// [SURREALIS-REMOVE] - EXCIDIUM removes magical validhunting scrolls
+		/**
 		if("Print List of Bounties")
 			print_bounty_scroll(H)
-		SRLS edit end - removes validhunting tools */
+		*/
+		//[/SURREALIS-REMOVE]
 
 		if("Remove Bounty")
 			remove_bounty(H)
